@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Koulen', cursive;
+font-family: 'Poppins', sans-serif;
+background-color: black;
+color: aliceblue;
+}
+.logo {
+height: 100%;
+
+}
+.header {
+    background: green;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.nav-list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
+.nav-link {
+    color: whitesmoke;
+    
+}
+.nav-link:hover {
+    text-decoration: underline;
+    
+}
+
+a {
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    
+
+}
+.disco {
+    width: 500px;
+    height: auto;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+ .hero__text h1 {
+     font-weight: 600;
+     font-size: 2rem;
+ }
+.hero__text p {
+    max-width: 450px;
+}
+.text__btns {
+    margin-top: 2rem;
+    display: flex;
+    gap: 10px;
+
+}
+.btn {
+    border: 2px solid blue;
+    padding: 1rem 1.3rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn__cta {
+  background: blue;  
+  color: white;
+}
+
+.btn__more {
+    color: blue;
+}
+
+.disco {
+    border-radius: 20px;
+}
+
+.info {
+   margin: 200px;
+   font-size: 50px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background: green;
+   color: white;
+  
+}
